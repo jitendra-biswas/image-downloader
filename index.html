@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <img src="icon.png" alt="" id="cloudicon" />
+        <h2>Download Your Image</h2>
+        <p>Enter the URL and click download to get started.</p>
+        <div class="url">
+          🔗<input type="text" placeholder="Enter image URL" id="imgURL"/>
+        </div>
+        <button onclick="downloadImage()"><img src="download.png" alt="" />Download</button>
+        <p id="message">
+          <img src="security.png" alt="" />
+          We respect your privacy. Your data is not stored.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
